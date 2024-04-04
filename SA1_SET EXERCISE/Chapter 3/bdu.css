@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'header';
+    src: url(rosie_brown_serif/Rosie\ Brown\ Serif\ Demo.otf);
+}
+
+body  {
+   background-color: black;
+   background-size: cover;
+}
+
+@keyframes flicker {
+    
+}
+#header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    color: #fffbf5;
+    margin-top: 20px;
+    text-align: right;
+    transition: top 0.5s;
+}
+nav a:hover{
+    color: #3f0005;
+    transform: scale(1.15);
+    transition: 0.25s;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    text-align: right;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    color: #fffbf5;
+    text-decoration: none;
+
+}
+
+.hed {
+    top: -50px;
+}
+
+.cont{
+    display: flex;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+    box-shadow: 50px;
+}
+
+#saeon {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+#minseo {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+#saeon:hover {
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+#jay:hover {
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+#seunghun:hover {
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+#minseo:hover {
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+
+h1 {
+    font-family: 'header';
+    text-align: center;
+    font-weight: lighter;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 7px rgba(141, 12, 12, 0.5);
+}
+
+

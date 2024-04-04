@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" /> <!-- icon picture -->
+    <title>Let me COOK!</title> 
+    
+    <!-- css -->
+    <style>
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fade {
+        animation: fadeIn 1s ease-out;
+      }
+
+      @media only screen and (max-width: 768px) {
+      }
+      
+
+    
+      @font-face { 
+      font-family: 'Questrial';
+      src: url(Questrial-Regular.ttf);
+    }
+      .questrial-regular {
+        font-family: "Questrial", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      body {
+        font-family: "Questrial", sans-serif;
+        justify-content: center;
+        align-items: center;
+        margin-left: 250px;
+        margin-right: 250px;
+      }
+
+      h1 {
+        font-family: "Questrial", sans-serif;
+        color: #de9d57;
+        font-size: 50px;
+        text-align: justify;
+      }
+
+      .prep {
+        font-family: "Questrial", sans-serif;
+        background-color: #de9d57;
+        padding: 10px;
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+      }
+
+      .total {
+        font-family: "Questrial", sans-serif;
+        background-color: #de9d57;
+        padding: 10px;
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+      }
+      .cook {
+        font-family: "Questrial", sans-serif;
+        background-color: #de9d57;
+        padding: 10px;
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+      }
+      .servings { 
+        font-family: "Questrial", sans-serif;
+        background-color: #de9d57;
+        padding: 10px;
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        border-radius: 5px;
+      }
+      .desc {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+      }
+
+      h2 {
+        font-family: "Questrial", sans-serif;
+        color: #de9d57;
+        font-size: 50px;
+      }
+
+      .container {
+        display: flex;
+      }
+
+      .ing {
+        margin-right: 20px;
+      }
+
+      .chickin {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .chiklist {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+      }
+
+      .sauce {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .saws {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+      }
+
+      .prepare {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .list {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        line-height: 35px;
+      }
+      .sus {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .susy {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      h3 {
+        margin-bottom: 5px;
+        font-family: "Questrial", sans-serif;
+        color: #de9d57;
+        font-size: 40px;
+      }
+
+      b {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+      }
+
+      .notecheese {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      .nutri {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      .oven {
+        font-family: "Questrial", sans-serif;
+        color: #717171;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      footer {
+        position: bottom;
+        bottom: 0;
+        width: 100%;
+        background-color: #de9d57;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+<div class="fade">
+  <body>
+    <!-- Logo -->
+    <img src="logoo1.png" alt="logo" width="25%" />
+    <br />
+    
+    <hr
+      style="width: 100%; background-color: #de9d57; height: 3px; border: 0"
+    />
+    <br />
+    <!-- Cover image -->
+    <img src="coverr.png" alt="cover" width="100%" />
+    <h1>Chicken Cordon Bleu with Dijon Cream Sauce</h1>
+    <br />
+    <!-- Time and servings information -->
+    <div class="prep">Preparation Time: 20 minutes</div>
+    <div class="cook">Cook Time: 25 to 35 Minutes</div>
+    <div class="total">Total Time: 45 to 55 Minutes</div>
+    <div class="servings">Servings: 4 Servings</div>
+    <br />
+    <br />
+    <br />
+    <p class="desc">
+      Chicken Cordon Bleu is a classic dish consisting of chicken breast wrapped
+      around ham and Swiss cheese, then breaded and fried or baked. The name
+      "Cordon Bleu" is French, meaning "blue ribbon," and originally referred to
+      a prestigious order of knighthood. The dish itself, however, is not of
+      French origin but rather Swiss. It's believed to have been inspired by the
+      traditional Swiss dish "veal cordon bleu," which consists of veal wrapped
+      around ham and cheese. Over time, the chicken version gained popularity
+      and became a staple of French and international cuisine, often served with
+      a creamy sauce. This chicken dish is everything you want and more: Tender
+      chicken, ham, and swiss cheese rolled and lightly breaded, then baked to
+      crispy perfection and topped with a rich dijon cream sauce! Ready in just
+      minutes!
+    </p>
+    <br />
+ <!-- List of ingredients here -->
+    <h2>Ingredients</h2>
+    <div class="container">
+      <div class="ing">
+        <p class="chickin">Chicken Cordon Bleu</p>
+        <div class="chiklist">
+          <ul>
+            <li>
+              4 boneless skinless chicken breasts - pounded to even ¼-½ inch
+              thickness
+            </li>
+            <li>4 slices ham</li>
+            <li>4 slices swiss cheese</li>
+            <li>2 eggs</li>
+            <li>2 tablespoons milk - or water</li>
+            <li>
+              ⅓ cup Italian seasoned breadcrumbs - (or regular breadcrumbs + 1 ½
+              teaspoons Italian seasoning)
+            </li>
+            <li>¼ cup grated parmesan cheese - see note</li>
+            <li>2 tablespoons butter</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="ing">
+        <p class="sauce">Sauce</p>
+        <div class="saws">
+          <ul>
+            <li>3 tablespoons butter</li>
+            <li>3 tablespoons flour</li>
+            <li>2 cups milk</li>
+            <li>3 tablespoons dijon mustard</li>
+            <li>1 teaspoon garlic powder</li>
+            <li>⅓ cup shredded parmesan cheese</li>
+            <li>salt and pepper to taste</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- List of steps here -->
+    <h2>Procedure</h2>
+    <p class="prepare">Prepare the chicken</p>
+    <div class="list">
+      <ol>
+        <li>
+          Preheat oven to 400 degrees. In a medium bowl, stir together parmesan
+          cheese and breadcrumbs. Set aside.
+        </li>
+        <li>
+          In a second, small bowl, whisk together eggs and milk. Set aside.
+        </li>
+        <li>
+          Lay pounded chicken breasts out on a flat, clean surface. Top each
+          with a slice of ham and then a slice of swiss cheese.
+        </li>
+        <li>
+          Roll into a bundle starting with one of the longer sides and rolling
+          toward the opposite side. Secure with toothpicks.
+        </li>
+        <li>
+          Dip chicken bundles in the egg mixture, coating all sides, then
+          carefully roll in breadcrumbs to coat.
+        </li>
+        <li>
+          Melt butter in an oven-safe skillet over medium high heat. (See note
+          if you don't have an oven-safe skillet)
+        </li>
+        <li>
+          Brown chicken for 2-3 minutes on each side until browned all over.
+        </li>
+        <li>
+          Transfer skillet to preheated oven and bake for 20-25 minutes until
+          chicken is cooked through.
+        </li>
+      </ol>
+    </div>
+    <p class="sus">Prepare the sauce</p>
+    <div class="susy">
+      <ol>
+        <li>
+          While chicken is cooking begin preparing the sauce by melting butter
+          in a medium sauce pan.
+        </li>
+        <li>
+          Stir in flour until mixture clumps together. Gradually whisk in milk,
+          working out the lumps as you stir. Stir in dijon mustard, garlic
+          powder, parmesan cheese, and salt and pepper to taste.
+        </li>
+        <li>
+          When chicken bundles are fully cooked, cut into 1-inch sections,
+          drizzle with the sauce and serve immediately.
+        </li>
+      </ol>
+    </div>
+    <br />
+    <hr
+      style="width: 100%; background-color: #de9d57; height: 3px; border: 0"
+    />
+    <h3>Note</h3>
+    <p class="notecheese">
+      <b>For the parmesan cheese:</b> I highly recommend freshly grated parmesan
+      cheese for the sauce! The kind that comes in a shaker can or comes
+      pre-shredded in a bag or container, does not melt the same way that
+      freshly grated parmesan does. For the chicken breading, grated parmesan
+      from the can is my favorite as it yields a really deliciously crispy
+      crust, but if you want to use just one kind of cheese, freshly grated will
+      work here as well!
+    </p>
+    <p class="oven">
+      <b>Oven-safe skillet alternate option:</b> If you don’t have an oven-safe
+      skillet, no worries! Simply brown your chicken bundles in any skillet,
+      then transfer to a greased casserole/baking dish before baking.
+    </p>
+    <br />
+     <!-- Nutrition information here -->
+    <h3>Nutrition</h3>
+    <p class="nutri">
+      Calories: 515 kcal, Carbohydrates: 21 g, Protein: 50 g, Fat: 24 g,
+      Saturated Fat: 11 g, Cholesterol: 215 mg, Sodium: 1088 mg, Potassium: 796
+      mg, Fiber: 1 g, Sugar: 9 g, Vitamin A: 655 IU, Vitamin C: 2 mg, Calcium:
+      507 mg, Iron: 2 mg
+    </p>
+    <br>
+    <footer>
+    Recipe from Creme De La Crumb
+    </footer>
+  </div>
+  </body>
+</html>
