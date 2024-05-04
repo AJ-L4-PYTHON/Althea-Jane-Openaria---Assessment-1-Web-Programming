@@ -1,0 +1,132 @@
+/* Define custom fonts */
+@font-face {
+    font-family: 'title';
+    src: url(kiona_2/Kiona-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'tag';
+    src: url(milker/Milker.otf);
+}
+
+@font-face {
+    font-family: 'petcal';
+    src: url('mont/Mont-HeavyDEMO.otf');
+}
+
+/* Body styles */
+body {
+    background-image: url(pttm.jpg); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Header styles */
+.header {
+    background-color: #31493C; /* Background color */
+    font-family: 'title'; /* Custom font for header */
+    color: #fff; /* Text color */
+    padding: 1px; /* Padding around the header */
+    padding-top: 1px; /* Top padding */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo styles */
+.logo img {
+    width: 50px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Right margin */
+    margin-left: 10px; /* Left margin */
+}
+
+/* Title styles */
+.title {
+    margin-top: 5; /* Top margin */
+}
+
+/* Calculator styles */
+.calculator {
+    max-width: 400px; /* Maximum width */
+    margin-top: 10px; /* Top margin */
+    margin-bottom: 340px; /* Bottom margin */
+    margin-left: 90px; /* Left margin */
+    padding: 70px; /* Padding inside calculator */
+    background-color: rgba(194, 192, 148, 0.4); /* Background color with opacity */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    font-family: 'petcal'; /* Custom font for calculator */
+    font-weight: bolder; /* Font weight */
+    color:#31493C; /* Text color */
+}
+
+/* Label styles */
+label {
+    display: block; /* Display as block element */
+    margin-bottom: 5px; /* Bottom margin */
+}
+
+/* Input styles */
+input {
+    width: 100%; /* Full width */
+    padding: 8px; /* Padding */
+    margin-bottom: 10px; /* Bottom margin */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Border radius */
+}
+
+/* Button styles */
+button {
+    font-family: 'petcal'; /* Custom font for button */
+    display: block; /* Display as block element */
+    width: 70%; /* Button width */
+    padding: 10px; /* Padding */
+    margin-left: 70px; /* Left margin */
+    margin-top: 30px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
+    background-color: #31493C; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Border radius */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #C2C094; /* Hover background color */
+}
+
+/* Result paragraph styles */
+p#result {
+    margin-top: 50px; /* Top margin */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    color: #210124; /* Text color */
+    padding-bottom: -30px; /* Bottom padding (negative value) */
+}
+
+/* Petrol calculator title styles */
+#petcal {
+    font-family: 'petcal'; /* Custom font for title */
+    font-size: 35px; /* Font size */
+    color: #31493C; /* Text color */
+    font-weight: 250px; /* Font weight */
+    margin-top: -300px; /* Top margin (negative value) */
+    margin-left: 170px; /* Left margin */
+    margin-bottom: 0px; /* Bottom margin */
+}
+
+/* Tagline styles */
+#tagline {
+    font-family: 'tag'; /* Custom font for tagline */
+    font-size: 70px; /* Font size */
+    font-weight: 250; /* Font weight */
+    letter-spacing: 1px; /* Letter spacing */
+    margin-left: 680px; /* Left margin */
+    margin-bottom: 0px; /* Bottom margin */
+    margin-top: 320px; /* Top margin */
+    color: #ffffff; /* Text color */
+}
